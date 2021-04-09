@@ -45,35 +45,43 @@ $(document).ready(function () {
     var fivePm = localStorage.getItem("fivePm");
     if(fivePm) {
         $("#fivePm textarea").val(fivePm);
-    } //do for every row
+    }
+
     var fourPm = localStorage.getItem("fourPm");
     if(fourPm) {
         $("#sixPm textarea").val(fourPm);
-    } //do for every row
+    }
+
     var threePm = localStorage.getItem("threePm");
     if(threePm) {
         $("#threePm textarea").val(threePm);
-    } //do for every row
+    }
+
     var twoPm = localStorage.getItem("twoPm");
     if(twoPm) {
         $("#twoPm textarea").val(twoPm);
-    } //do for every row
+    } 
+
     var onePm = localStorage.getItem("onePm");
     if(onePm) {
         $("#onePm textarea").val(onePm);
-    } //do for every row
+    }
+
     var twelve = localStorage.getItem("twelve");
     if(twelve) {
         $("#twelve textarea").val(twelve);
-    } //do for every row
+    } 
+
     var eleven = localStorage.getItem("eleven");
     if(eleven) {
         $("#eleven textarea").val(eleven);
-    } //do for every row
+    } 
+
     var ten = localStorage.getItem("ten");
     if(ten) {
         $("#ten textarea").val(ten);
-    } //do for every row
+    }
+    
     var nine = localStorage.getItem("nine");
     if(nine) {
         $("#nine textarea").val(nine);
@@ -94,6 +102,3 @@ $(document).ready(function () {
         console.log('dblclick');
     });
 });
-
-//determine background color of time blocks
-//use .each jquery
