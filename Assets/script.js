@@ -49,7 +49,7 @@ $(document).ready(function () {
 
     var fourPm = localStorage.getItem("fourPm");
     if(fourPm) {
-        $("#sixPm textarea").val(fourPm);
+        $("#fourPm textarea").val(fourPm);
     }
 
     var threePm = localStorage.getItem("threePm");
